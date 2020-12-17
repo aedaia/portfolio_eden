@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `eden sinclair– portfolio`,
+  siteTitle: `eden sinclair`,
   siteTitleShort: `eden`,
   siteDescription: `a portfolio site`,
   siteUrl: `https://xdxn.netlify.app/`,
