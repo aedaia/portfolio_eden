@@ -34,6 +34,21 @@ export default createGlobalStyle`
   html {
     font-size: 62.5%;
   }
+  h5{
+    font-weight: 700;
+    font-size: 70px;
+    padding-bottom: 20px;
+  }
+  h6{
+    margin-bottom: -20px;
+    font-size: 70px;
+    font-family: default;
+    font-weight: 300;
+  }
+  mark{
+    background-color: pink;
+    color: black;
+  }
 
   body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -100,7 +115,7 @@ export default createGlobalStyle`
   img{
     height: auto;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 0px;
   }
 
   @media only screen and (max-width:800px){
