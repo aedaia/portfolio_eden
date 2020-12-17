@@ -35,7 +35,7 @@
   {
     "title": "",
     "copy": "",
-    "image": "../images/gallery/cover1.jpg",
+    "image": "../images/gallery/building.jpg",
     "link": "about"
   },
   {
@@ -47,13 +47,31 @@
   {
     "title": "",
     "copy": "",
+    "image": "../images/gallery/veg.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
     "image": "../images/gallery/2b9fe-4.jpg",
     "link": "about"
   },
   {
     "title": "",
     "copy": "",
-    "image": "../images/gallery/43eb9-a.jpg",
+    "image": "../images/gallery/pelican.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/niveduab.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/animal.jpg",
     "link": "about"
   }
 ]

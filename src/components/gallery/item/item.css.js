@@ -13,6 +13,6 @@ export const Copy = styled.p`
   margin: 0 0rem 0rem;
 
   ${MEDIA.TABLET`
-    margin-bottom: 4rem;
+    
   `};
 `;

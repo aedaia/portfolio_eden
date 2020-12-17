@@ -10,10 +10,10 @@ const About = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        {' '}
-        Hello{' '}
+        I&apos;m a software designer, but I also make other things.
       </Title>
     </Box>
+    
   </Layout>
 );
 

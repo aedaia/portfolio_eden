@@ -23,7 +23,7 @@ export default createGlobalStyle`
     vertical-align: baseline;
   }
   h2 {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
@@ -36,7 +36,7 @@ export default createGlobalStyle`
   }
   h5{
     font-weight: 700;
-    font-size: 70px;
+    font-size: 3.2rem;
     padding-bottom: 20px;
   }
   h6{
@@ -46,7 +46,8 @@ export default createGlobalStyle`
     font-weight: 300;
   }
   mark{
-    background-color: pink;
+    background-color: rgba(190, 150, 250, 0);
+    // this is the colour for the highlight xo
     color: black;
   }
 
@@ -121,6 +122,10 @@ export default createGlobalStyle`
   @media only screen and (max-width:800px){
     p{
       column-count: 1;
+    }
+    h2{
+
+      padding-bottom: 50px;
     }
   }
 `;
