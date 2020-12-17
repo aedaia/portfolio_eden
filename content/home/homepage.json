@@ -1,0 +1,60 @@
+{
+  "title": "Home",
+  "content": "intro.md",
+  "gallery": [
+    {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/dog.jpg",
+    "link": "dognbone"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/3.jpg",
+    "link": "dipmag"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/glow.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/insta1.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/long.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/cover1.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/3fc2a-c.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/2b9fe-4.jpg",
+    "link": "about"
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/43eb9-a.jpg",
+    "link": "about"
+  }
+]
+}
