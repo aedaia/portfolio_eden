@@ -10,8 +10,10 @@ const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        <h2>Hi! my name&apos;s Eden. I like designing UI and making cool things. <mark></mark>Check out some of the stuff I&apos;ve
-        made– </h2>
+        <h2>
+          Hi! my name&apos;s Eden. I like designing UI and making cool things.{' '}
+          <mark></mark>Check out some of the stuff I&apos;ve made–{' '}
+        </h2>
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />

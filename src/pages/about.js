@@ -13,7 +13,6 @@ const About = ({ data }) => (
         I&apos;m a software designer, but I also make other things.
       </Title>
     </Box>
-    
   </Layout>
 );
 
