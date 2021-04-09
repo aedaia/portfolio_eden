@@ -1,18 +1,12 @@
 import React from 'react';
-
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
-import Box from 'components/box';
-import Title from 'components/title';
+import MyFace from 'components/myface';
 import { graphql } from 'gatsby';
 
-const About = ({ data }) => (
+const About = () => (
   <Layout>
-    <Box>
-      <Title as="h2" size="large">
-        I&apos;m a software designer, but I also make other things.
-      </Title>
-    </Box>
+    <MyFace />
   </Layout>
 );
 

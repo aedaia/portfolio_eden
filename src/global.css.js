@@ -31,12 +31,25 @@ export default createGlobalStyle`
     display: block;
   }
 
+  .player-wrapper {
+    position: relative;
+    Player ratio: 100 / (1280 / 720)
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   html {
     font-size: 62.5%;
   }
   h5{
     font-weight: 700;
     font-size: 3.2rem;
+    padding-bottom: 20px;
+  }
+  h3{
     padding-bottom: 20px;
   }
   h6{
@@ -46,7 +59,7 @@ export default createGlobalStyle`
     font-weight: 300;
   }
   mark{
-    background-color: rgba(190, 150, 250, 0);
+    background-color: red;
     // this is the colour for the highlight xo
     color: black;
   }
@@ -86,9 +99,17 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${accent};
-  }
+    color: #8A3FFC;
+    text-decoration: none;
 
+  }
+  span{
+    color: #8A3FFC;
+    font-family: monospace;
+  }
+.largeimage{
+  width: 100% !important;
+}
   pre {
     display: block;
     padding: 2rem;
@@ -115,8 +136,22 @@ export default createGlobalStyle`
 
   img{
     height: auto;
-    width: 100%;
+    width: 33.3%;
     padding-top: 0px;
+    margin-bottom: -2px;
+  }
+
+  @media only screen and (max-width:1700px){
+    p{
+      column-count: 2;
+    }
+    h2{
+
+      padding-bottom: 50px;
+    }
+    img{
+      width: 50%;
+    }
   }
 
   @media only screen and (max-width:800px){
@@ -127,5 +162,9 @@ export default createGlobalStyle`
 
       padding-bottom: 50px;
     }
+    img{
+      width: 100%;
+    }
   }
+
 `;

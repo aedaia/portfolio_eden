@@ -18,31 +18,31 @@
     "title": "",
     "copy": "",
     "image": "../images/gallery/glow.jpg",
-    "link": "about"
+    "link": "glow"
   },
   {
     "title": "",
     "copy": "",
     "image": "../images/gallery/insta1.jpg",
-    "link": "about"
+    "link": " "
   },
   {
     "title": "",
     "copy": "",
     "image": "../images/gallery/long.jpg",
-    "link": "about"
+    "link": "autismberks"
   },
   {
     "title": "",
     "copy": "",
     "image": "../images/gallery/building.jpg",
-    "link": "about"
+    "link": "bftf"
   },
   {
     "title": "",
     "copy": "",
     "image": "../images/gallery/3fc2a-c.jpg",
-    "link": "about"
+    "link": " "
   },
   {
     "title": "",
@@ -60,19 +60,19 @@
     "title": "",
     "copy": "",
     "image": "../images/gallery/pelican.jpg",
-    "link": "about"
+    "link": " "
   },
   {
     "title": "",
     "copy": "",
     "image": "../images/gallery/niveduab.jpg",
-    "link": "about"
-  },
+    "link": " "
+  }, 
   {
     "title": "",
     "copy": "",
     "image": "../images/gallery/animal.jpg",
-    "link": "about"
+    "link": " "
   }
 ]
 }
