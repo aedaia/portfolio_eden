@@ -5,7 +5,7 @@ import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "gatsby";
 
-const MyFace = () => (
+const Face = () => (
 
     <Container>
       <Title as="h2" size="large">
@@ -23,4 +23,4 @@ const MyFace = () => (
     </Container> 
 );
 
-export default MyFace;
+export default Face;

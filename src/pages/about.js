@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
-import MyFace from 'components/myface';
+import Face from 'components/myface';
 import { graphql } from 'gatsby';
 
 const About = () => (
   <Layout>
-    <MyFace />
+    <Face />
   </Layout>
 );
 
