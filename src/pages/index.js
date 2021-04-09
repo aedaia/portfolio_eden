@@ -5,6 +5,10 @@ import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
+import { Helmet } from "react-helmet"
+import ogImage from "../images/exemption2.jpg" 
+
+
 
 const Index = ({ data }) => (
   <Layout>
@@ -26,6 +30,32 @@ Index.propTypes = {
 };
 
 export default Index;
+
+export function SEO() {
+ 
+  return (
+    <Helmet
+      title="I am a page title"
+      meta={[
+        {
+          property: `og:title`,
+          content: "I am a title Open Graph protocol will pick up and display",
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          property: `og:image`,
+          // You should ideally replace the hardcoded URL below with a value you set
+          // in your gatsby-config.js file.  And import all shared site metadata into
+          // this component with the useStaticQuery hook.
+          content: `exemption2.jpg`,
+        },
+      ]}
+    />
+  )
+}
 
 export const query = graphql`
   query HomepageQuery {

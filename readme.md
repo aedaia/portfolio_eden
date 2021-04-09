@@ -6,14 +6,14 @@ Find the site-wide configuration in `site-config.js`.
 module.exports = {
   siteTitle: `eden`,
   siteTitleShort: `eden`,
-  siteDescription: `a portfolio site`,
-  siteUrl: ``,
+  siteDescription: `The life's work of Eden Sinclair`,
+  siteUrl: `edensinclair.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: ``,
+    twitter: `edensinclair_`,
     fbAppId: ``,
   },
 };
