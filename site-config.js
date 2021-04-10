@@ -9,7 +9,6 @@ module.exports = {
   backgroundColor: `#fff`,
   pathPrefix: null,
   logo: path.resolve(__dirname, '../images/icon.png'),
-  image: path.resolve(__dirname, '../images/exemption2.jpg'),
   social: {
     twitter: `edensinclair_`,
     fbAppId: ``,

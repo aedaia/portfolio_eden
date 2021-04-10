@@ -190,7 +190,6 @@ const HeadWithQuery = props => (
             siteDescription
             siteUrl
             themeColor
-            defaultImage: image
             social {
               twitter
               fbAppId
