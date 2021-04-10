@@ -9,12 +9,12 @@ const Footer = () => (
 
     <Container>
             <div>
-            <Link to="https://www.instagram.com/edensinclair_/?hl=en" target="_blank">
+            <a href="https://www.instagram.com/edensinclair_/?hl=en" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faInstagram} size = '2x'/>
-            </Link>
-            <Link to="https://twitter.com/edensinclair_?lang=en" target="_blank">
+            </a>
+            <a href="https://twitter.com/edensinclair_?lang=en" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faTwitter} size = '2x'/>
-            </Link>
+            </a>
             </div>
       
     </Container> 

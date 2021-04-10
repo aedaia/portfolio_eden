@@ -7,8 +7,6 @@ import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import Footer from 'components/footer';
 
-
-
 const Index = ({ data }) => (
   <Layout>
     {/* <Box>
