@@ -2,6 +2,7 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
+import Footer from 'components/footer';
 import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
@@ -24,12 +25,6 @@ const Autismberks = () => (
         illness or impairment, or disability. I designed a face covering
         exemption card in collaboration with Autism Berkshire that can be
         printed and shown when shopping or using a bus or train.&nbsp;
-        <Link
-          to="https://www.autismberkshire.org.uk/face-covering-exemption-card-july-2020/"
-          target="_blank"
-        >
-          Click here to download the card.
-        </Link>
         <br></br>
         <span>07/20–11/20</span>
       </p>
@@ -57,6 +52,7 @@ const Autismberks = () => (
       alt="hello"
     />
     <img src={require('../images/brochure1.jpg')} alt="hello" />
+    <Footer />
   </Layout>
 );
 

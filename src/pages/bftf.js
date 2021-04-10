@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Footer from 'components/footer';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
@@ -19,14 +19,7 @@ const bftf = () => (
         This project involved completely redesigning and remaking the website
         for nonprofit organisation BFTF. I created the website from scratch, as
         well as setting up new email accounts for the staff and managing the
-        hosting. Check it out{' '}
-        <Link
-          to="https://www.autismberkshire.org.uk/face-covering-exemption-card-july-2020/"
-          target="_blank"
-        >
-          here
-        </Link>
-        , or watch the video walkthrough below. &nbsp;
+        hosting. Watch the video walkthrough below. &nbsp;
         <br></br>
         <span>07/20–08/20</span>
       </p>
@@ -59,6 +52,7 @@ const bftf = () => (
 
     <img src={require('../images/building2.jpg')} alt="hello" />
     <img src={require('../images/building.jpg')} alt="hello" />
+    <Footer />
   </Layout>
 );
 

@@ -7,6 +7,7 @@ import Title from 'components/title';
 import { graphql } from 'gatsby';
 import ReactPlayer from 'react-player';
 import { Link } from 'gatsby';
+import Footer from 'components/footer';
 
 const Dipmag = () => (
   <Layout>
@@ -77,6 +78,7 @@ const Dipmag = () => (
         controls="true"
       />
     </div>
+    <Footer />
   </Layout>
 );
 

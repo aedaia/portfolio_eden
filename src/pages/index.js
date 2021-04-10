@@ -5,8 +5,7 @@ import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
-import { Helmet } from "react-helmet"
-import ogImage from "../images/exemption2.jpg" 
+import Footer from 'components/footer';
 
 
 
@@ -22,6 +21,7 @@ const Index = ({ data }) => (
     </Box> */}
     <Gallery items={data.homeJson.gallery} />
     {/* <div style={{ height: '50vh' }} /> */}
+    <Footer />
   </Layout>
 );
 

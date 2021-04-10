@@ -6,6 +6,7 @@ import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
 import ReactPlayer from 'react-player';
+import Footer from 'components/footer';
 
 const Dognbone = () => (
   <Layout>
@@ -61,6 +62,7 @@ const Dognbone = () => (
         controls="true"
       />
     </div>
+    <Footer />
   </Layout>
 );
 

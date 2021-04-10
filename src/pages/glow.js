@@ -7,6 +7,7 @@ import Title from 'components/title';
 import { graphql } from 'gatsby';
 import ReactPlayer from 'react-player';
 import { Link } from 'gatsby';
+import Footer from 'components/footer';
 
 const Glow = () => (
   <Layout>
@@ -33,6 +34,7 @@ const Glow = () => (
         controls="true"
       />
     </div>
+    <Footer />
   </Layout>
 );
 

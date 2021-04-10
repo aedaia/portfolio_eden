@@ -23,13 +23,13 @@
   {
     "title": "",
     "copy": "",
-    "image": "../images/gallery/80769-realisticcopy.jpg",
+    "image": "../images/gallery/long.jpg",
     "link": ""
   },
   {
     "title": "",
     "copy": "",
-    "image": "../images/gallery/long.jpg",
+    "image": "../images/gallery/sq.jpg",
     "link": "autismberks"
   },
   {
@@ -41,13 +41,13 @@
   {
     "title": "",
     "copy": "",
-    "image": "../images/gallery/3fc2a-c.jpg",
+    "image": "../images/gallery/animal.jpg",
     "link": " "
   },
   {
     "title": "",
     "copy": "",
-    "image": "../images/gallery/veg.jpg",
+    "image": "../images/gallery/80769-realisticcopy 2.jpg",
     "link": ""
   },
   {
@@ -71,8 +71,26 @@
   {
     "title": "",
     "copy": "",
-    "image": "../images/gallery/animal.jpg",
+    "image": "../images/gallery/3fc2a-c.jpg",
     "link": " "
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/spacex copy.jpg",
+    "link": " "
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/f5c20-1.jpg",
+    "link": " "
+  },
+  {
+    "title": "",
+    "copy": "",
+    "image": "../images/gallery/mag.jpg",
+    "link": "dipmag"
   }
 ]
 }
