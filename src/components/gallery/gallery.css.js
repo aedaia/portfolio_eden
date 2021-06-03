@@ -4,7 +4,7 @@ import MEDIA from 'helpers/mediaTemplates';
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  grid-gap: 0;
+  grid-gap: 20px;
   padding: 0 40px 40px 40px ;
   margin: 0 0 0 0;
 
