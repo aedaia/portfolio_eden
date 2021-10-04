@@ -78,6 +78,15 @@ const Dipmag = () => (
         controls="true"
       />
     </div>
+
+    <Box>
+    <br></br> <br></br> <br></br> <br></br>
+      <Title as="h3" size="medium">
+        The process
+      </Title>
+    </Box>  
+    <iframe width="100%" height="500px" src="https://drive.google.com/file/d/1irCqpmTfileJM7aXfP7G5zLJ3xTsw6sd/preview"></iframe>
+    <br></br> <br></br> <br></br> <br></br>
     <Footer />
   </Layout>
 );

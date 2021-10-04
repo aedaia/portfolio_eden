@@ -24,7 +24,17 @@ const Glow = () => (
         <br></br>
         <span>12/19–04/20</span>
       </p>
-    </Box>
+      <br></br> <br></br> <br></br> <br></br>
+      <Title as="h3" size="medium">
+        The process
+      </Title>
+    </Box>  
+    <iframe width="100%" height="500px" src="https://drive.google.com/file/d/1y7uWE_LGB2A6Ia2S0mLSG5A_rwLeRXce/preview"></iframe>
+    <br></br> <br></br> <br></br> <br></br>
+    <Title as="h3" size="medium">
+        App walkthrough
+      </Title>
+    
 
     <div className="player-wrapper">
       <ReactPlayer
