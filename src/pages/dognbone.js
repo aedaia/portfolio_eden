@@ -53,8 +53,12 @@ const Dognbone = () => (
         not to ask for help because they have too much pride&apos; (NHS UK,
         2020).
       </p>
+      <br></br> <br></br> <br></br> <br></br>
+      <Title as="h3" size="medium">
+        The process
+      </Title>
     </Box>     
-    <iframe id="iframepdf" width="100%" frameborder="0" scrolling="no" height="50%" src="https://drive.google.com/file/d/1F7ouoYAVogqRhBZz3ilXf-lwSyy9b2KD/preview"></iframe>
+    <iframe id="iframepdf" width="100%" frameborder="0" scrolling="no" height="" src="https://drive.google.com/file/d/1F7ouoYAVogqRhBZz3ilXf-lwSyy9b2KD/preview"></iframe>
     <div className="player-wrapper">
       <ReactPlayer
         width="100%"
