@@ -58,7 +58,7 @@ const Dognbone = () => (
         The process
       </Title>
     </Box>     
-    <iframe id="iframepdf" width="100%" height="100%" frameborder="0" scrolling="no" height="" src="https://drive.google.com/file/d/1F7ouoYAVogqRhBZz3ilXf-lwSyy9b2KD/preview"></iframe>
+    <iframe id="iframepdf" width="100%" height="100vh" frameborder="0" scrolling="no" height="" src="https://drive.google.com/file/d/1F7ouoYAVogqRhBZz3ilXf-lwSyy9b2KD/preview"></iframe>
     <div className="player-wrapper">
       <ReactPlayer
         width="100%"
