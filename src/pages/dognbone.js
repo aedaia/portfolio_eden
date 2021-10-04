@@ -57,9 +57,9 @@ const Dognbone = () => (
       <Title as="h3" size="medium">
         The process
       </Title>
-      <iframe height="500px" src="https://drive.google.com/file/d/1F7ouoYAVogqRhBZz3ilXf-lwSyy9b2KD/preview"></iframe>
-
-    </Box>     
+    </Box>  
+    <iframe width="100%" height="500px" src="https://drive.google.com/file/d/19qi8RyIHySfa0VM3JGGEi1_1z5sQI1so/preview"></iframe>
+   
 
     <div className="player-wrapper">
       <ReactPlayer
