@@ -33,7 +33,8 @@ const Glow = () => (
     <img src={require('../images/breathe.jpg')} alt="hello" />
     <img src={require('../images/mood.jpg')} alt="hello" />
     <img src={require('../images/mood2.jpg')} alt="hello" />
- 
+    <br></br> <br></br> <br></br> <br></br>
+
 
       <Box>
       <Title as="h3" size="medium">
@@ -46,7 +47,7 @@ const Glow = () => (
     <Title as="h3" size="medium">
         App walkthrough
       </Title>
-    
+    </Box>
 
     <div className="player-wrapper">
       <ReactPlayer
@@ -56,7 +57,7 @@ const Glow = () => (
         controls="true"
       />
     </div>
-    </Box>
+   
     <Footer />
   </Layout>
 );
