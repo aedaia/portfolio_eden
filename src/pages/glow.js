@@ -26,17 +26,19 @@ const Glow = () => (
       </p>
       <br></br> <br></br> <br></br> <br></br>
       </Box>
-      <img src={require('../images/sleep.jpg')} alt="hello" />
+
+    <img src={require('../images/sleep.jpg')} alt="hello" />
     <img src={require('../images/chat.jpg')} alt="hello" />
     <img src={require('../images/breathe.jpg')} alt="hello" />
     <img src={require('../images/mood.jpg')} alt="hello" />
-    <img src={require('../images/mood2-3.jpg')} alt="hello" />
+    <img src={require('../images/mood2.jpg')} alt="hello" />
+
       <Box>
       <Title as="h3" size="medium">
         The process
       </Title>
     </Box>  
-    <iframe width="100%" height="500px" src="https://drive.google.com/file/d/1y7uWE_LGB2A6Ia2S0mLSG5A_rwLeRXce/preview"></iframe>
+    <iframe title="processFile" width="100%" height="500px" src="https://drive.google.com/file/d/1y7uWE_LGB2A6Ia2S0mLSG5A_rwLeRXce/preview"></iframe>
     <br></br> <br></br> <br></br> <br></br>
     <Box>
     <Title as="h3" size="medium">
