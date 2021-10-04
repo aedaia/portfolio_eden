@@ -29,9 +29,9 @@ const Glow = () => (
     
     <img src={require('../images/cae80-eden_sinclair_glow_pitch_page_01.jpg')} alt="hello" />
     <img src={require('../images/sleep.jpg')} alt="hello" />
+    <img src={require('../images/mood.jpg')} alt="hello" />
     <img src={require('../images/chat.jpg')} alt="hello" />
     <img src={require('../images/breathe.jpg')} alt="hello" />
-    <img src={require('../images/mood.jpg')} alt="hello" />
     <img src={require('../images/mood2.jpg')} alt="hello" />
     <br></br> <br></br> <br></br> <br></br>
 
