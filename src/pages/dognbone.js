@@ -53,7 +53,8 @@ const Dognbone = () => (
         not to ask for help because they have too much pride&apos; (NHS UK,
         2020).
       </p>
-    </Box>
+    </Box>     
+    <iframe id="iframepdf" src='../images/test.pdf'></iframe>
     <div className="player-wrapper">
       <ReactPlayer
         width="100%"
