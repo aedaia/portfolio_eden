@@ -54,7 +54,7 @@ const Dognbone = () => (
         2020).
       </p>
     </Box>     
-    <iframe id="iframepdf" src='../images/test.pdf'></iframe>
+    <iframe id="iframepdf" width="100%" src="../images/test.pdf"></iframe>
     <div className="player-wrapper">
       <ReactPlayer
         width="100%"
