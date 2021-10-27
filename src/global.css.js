@@ -24,6 +24,14 @@ export default createGlobalStyle`
   }
 
 
+
+  
+a {
+  cursor: pointer;
+    color: black;
+    text-decoration: none;
+
+}
   .grid{
     display: grid;
     grid-gap: 10px;
@@ -110,11 +118,7 @@ export default createGlobalStyle`
     border-spacing: 0;
   }
 
-  a {
-    color: black;
-    text-decoration: none;
-
-  }
+  
   span{
     color: #8A3FFC;
     font-family: monospace;
@@ -148,12 +152,37 @@ export default createGlobalStyle`
     line-height: 1.1;
     font-weight: 600;
   }
-
+  #secondary{
+    background-color: white !important;
+    color: black !important;
+    
+    border-color: black !important;
+  }
   p {
     margin-bottom: 2rem;
     line-height: 1.5;
     column-count: 2;
     column-gap: 20px;
+  }
+
+  button{
+    margin-bottom: 16px;
+   
+    cursor: pointer;
+    border: 2px solid !important;
+  background-color: black;
+  border-color: black !important;
+  font-weight: 500 !important;
+  color: white;
+  font: inherit;
+  font-size: 1.8rem !important ;
+  padding: 16px 16px ;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+
   }
 
   img{

@@ -4,25 +4,26 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import { graphql } from 'gatsby';
+import { graphql, Button } from 'gatsby';
 import Footer from 'components/footer';
+
 
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large"><br /><br />
+      <Title as="h2" size="large"><br />
         <h7>hi there!</h7><br /><br />
          <h8> 
           My name&apos;s Eden, and I&apos;m a visual 
           designer specialising in both digital and print. 
-          Now you&apos;d better get ready for some colour... <br /><br /><br /><br /><br />
+          Now you&apos;d better get ready for some colour... <br /><br /><br /><br />
         </h8>
-        
-        <a href="#Gallery">↓</a>
-        <div className="GalleryOne" id="Gallery"></div>
-        
+        <a href="#Gallery"> <button> Check out my work &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓</button></a>
+        &nbsp;<a href="about"> <button id="secondary"> More about me &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</button></a>
+        <br /><br />
         
       </Title>
+      <div id="Gallery"></div><br></br>
     </Box>
     
     <Gallery items={data.homeJson.gallery} />

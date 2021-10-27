@@ -6,7 +6,6 @@ export const Container = styled.div`
 //   align-items: center;
   padding: 4rem;
   margin-right: 0;
-  background-image: url("https://i.ibb.co/wgyMsX6/edenface4.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -30,6 +29,9 @@ a {
 div{
     left: 0;
 
+}
+.socials{
+  padding-bottom: 0px !important;
 }
 
 @media only screen and (max-width:1000px){

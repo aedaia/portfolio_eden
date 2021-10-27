@@ -4,14 +4,18 @@ import { Container } from './myface.css';
 import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "gatsby";
+import photo from './eden.jpg';
 
 const Face = () => (
 
     <Container>
-      <Title as="h2" size="large">
-        Hi, I&apos;m Eden! I graduated from the University of Reading in <span> 2020</span> and have been working at IBM as a visual designer ever since. 
+      <div className="flex">
+      <img src={photo} alt="Face" style={{maxHeight:200, maxWidth:200}} className="photo"  />
+      </div>
+        <Title as="h2" size="large">
+        Hi, I&apos;m Eden! I graduated from the University of Reading in 2020 and have been working at IBM as a visual designer ever since. 
       </Title>
-      <div>
+      <div className="socials">
             <a href="https://www.instagram.com/edensinclair_/?hl=en" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faInstagram} size = '2x'/>
             </a>
@@ -19,6 +23,8 @@ const Face = () => (
                 <FontAwesomeIcon icon={faTwitter} size = '2x'/>
             </a>
       </div>
+    
+    
       
     </Container> 
 );
