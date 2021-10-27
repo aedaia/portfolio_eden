@@ -1,3 +1,5 @@
+## (:
+
 ## Configuration
 
 Find the site-wide configuration in `site-config.js`.
