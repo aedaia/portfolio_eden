@@ -9,14 +9,22 @@ import Footer from 'components/footer';
 
 const Index = ({ data }) => (
   <Layout>
-    {/* <Box>
-      <Title as="h2" size="large">
-        <h2>
-          Hi! my name&apos;s Eden. I like designing UI and making cool things.{' '}
-          <mark></mark>Check out some of the stuff I&apos;ve made–{' '}
-        </h2>
+    <Box>
+      <Title as="h2" size="large"><br /><br />
+        <h7>hi there!</h7><br /><br />
+         <h8> 
+          My name&apos;s Eden, and I&apos;m a visual 
+          designer specialising in both digital and print. 
+          Now you&apos;d better get ready for some colour... <br /><br /><br /><br /><br />
+        </h8>
+        
+        <a href="#Gallery">↓</a>
+        <div className="GalleryOne" id="Gallery"></div>
+        
+        
       </Title>
-    </Box> */}
+    </Box>
+    
     <Gallery items={data.homeJson.gallery} />
     {/* <div style={{ height: '50vh' }} /> */}
     <Footer />

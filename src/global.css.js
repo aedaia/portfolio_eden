@@ -22,6 +22,18 @@ export default createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
   }
+
+
+  .grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: 200px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
   h2 {
     padding-bottom: 50px;
   }
@@ -99,7 +111,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: #8A3FFC;
+    color: black;
     text-decoration: none;
 
   }
@@ -127,6 +139,16 @@ export default createGlobalStyle`
     max-width: 100%;
   }
 
+  h8{
+    padding-bottom: 32px;
+  }
+
+  h7{
+    font-size: 10rem;
+    line-height: 1.1;
+    font-weight: 600;
+  }
+
   p {
     margin-bottom: 2rem;
     line-height: 1.5;
@@ -145,6 +167,7 @@ export default createGlobalStyle`
     p{
       column-count: 2;
     }
+    
     h2{
 
       padding-bottom: 50px;
@@ -153,17 +176,28 @@ export default createGlobalStyle`
       width: 50%;
     }
   }
+  @media only screen and (max-width:850px){
+    h7{
+      font-size: 6rem;
+    }
+  }
 
   @media only screen and (max-width:800px){
     p{
       column-count: 1;
     }
+    
     h2{
 
       padding-bottom: 50px;
     }
     img{
       width: 100%;
+    }
+  }
+  @media only screen and (max-width:600px){
+    h7{
+      font-size: 4rem;
     }
   }
 
