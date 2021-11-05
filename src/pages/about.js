@@ -52,7 +52,7 @@ About.propTypes = {
 
 export default About;
 
-export const query = graphql`
+const query = graphql`
   query AboutQuery {
     aboutJson {
       title

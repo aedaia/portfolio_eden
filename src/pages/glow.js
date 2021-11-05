@@ -68,7 +68,7 @@ Glow.propTypes = {
 
 export default Glow;
 
-export const query = graphql`
+const query = graphql`
   query glowQuery {
     glowJson {
       title

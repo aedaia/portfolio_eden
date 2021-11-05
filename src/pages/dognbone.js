@@ -83,7 +83,7 @@ Dognbone.propTypes = {
 
 export default Dognbone;
 
-export const query = graphql`
+const query = graphql`
   query DognboneQuery {
     dognboneJson {
       title

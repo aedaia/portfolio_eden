@@ -112,7 +112,7 @@ Niveduab.propTypes = {
 
 export default Niveduab;
 
-export const query = graphql`
+const query = graphql`
   query niveduabQuery {
     nivJson {
       title
