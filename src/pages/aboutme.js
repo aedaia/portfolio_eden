@@ -4,7 +4,6 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
-import 'react-vertical-timeline-component/style.min.css';
 import Timeline2 from 'components/timeline2';
 import photo from './eden.jpg';
 import Footer from 'components/footer';
