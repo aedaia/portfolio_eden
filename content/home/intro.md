@@ -1,0 +1,2 @@
+---
+imageShare: dog.jpg
