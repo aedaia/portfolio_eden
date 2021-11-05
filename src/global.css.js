@@ -49,13 +49,13 @@ export default createGlobalStyle`
     padding-left: 4rem;
     padding-top: 5.9rem;
     margin-right: 0;
+    background-color: black;
     color: white;
-    height: 545px;
+    height: 587px;
   }
 
   .aboutMePhoto {
     float: right;
-    vertical-align: bottom;
     padding-left: 25px;
   }
  
@@ -251,25 +251,16 @@ a {
       font-size: 6rem;
     }
  
-
-}
-
-@media only screen and (max-width:1285px){
-  h7{
-    font-size: 6rem;
+  .aboutMe{
+    background-color: black;
+    height: 919px;
+    
   }
-
-.aboutMe{
-      background-color: black;
-  height: 877px;
-  
+  .aboutMePhoto{
+    padding-top: 0px;
+    position: relative;
+  }
 }
-.aboutMePhoto{
-  padding-top: 0px;
-  position: relative;
-}
-}
-
 
   @media only screen and (max-width:850px){
     h7{
@@ -288,8 +279,8 @@ a {
   
     }
     .aboutMe{
-
-      height: 955px;
+      background-color: black;
+      height: 997px;
       
     }
     .aboutMePhoto{
@@ -308,8 +299,8 @@ a {
 
   @media only screen and (max-width:768px){
     .aboutMe{
-  
-      height: 868px;
+      background-color: black;
+      height: 910px;
       
     }
     .aboutMePhoto{
@@ -327,7 +318,7 @@ a {
     }
     .aboutMe{
       background-color: black;
-      height: 877px;
+      height: 919px;
       
     }
     .aboutMePhoto{

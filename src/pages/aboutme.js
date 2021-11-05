@@ -28,7 +28,7 @@ const Aboutme = ({ data }) => (
           <div className="aboutMePhoto">
             <img
               src={photo}
-              style={{ height: 545, width: 545}}
+              style={{ minHeight: '45vh', minWidth: '45vh' }}
               alt="Face"
               className="photo"
             />
