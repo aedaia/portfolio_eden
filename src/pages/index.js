@@ -9,6 +9,7 @@ import Footer from 'components/footer';
 
 const Index = ({ data }) => (
   <Layout>
+<<<<<<< HEAD
     <Box>
       <Title as="h2" size="large">
         <br />
@@ -43,6 +44,16 @@ const Index = ({ data }) => (
       <br></br>
     </Box>
 
+=======
+    {/* <Box>
+      <Title as="h2" size="large">
+        <h2>
+          Hi! my name&apos;s Eden. I like designing UI and making cool things.{' '}
+          <mark></mark>Check out some of the stuff I&apos;ve made–{' '}
+        </h2>
+      </Title>
+    </Box> */}
+>>>>>>> parent of 9b661b0 (name changes etc)
     <Gallery items={data.homeJson.gallery} />
     {/* <div style={{ height: '50vh' }} /> */}
     <Footer />

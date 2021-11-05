@@ -22,6 +22,7 @@ export default createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
   }
+<<<<<<< HEAD
 
   .black{
     background-color: black;
@@ -80,6 +81,8 @@ a {
     scroll-behavior: smooth;
   }
 
+=======
+>>>>>>> parent of 9b661b0 (name changes etc)
   h2 {
     padding-bottom: 50px;
   }
@@ -156,7 +159,15 @@ a {
     border-spacing: 0;
   }
 
+<<<<<<< HEAD
   
+=======
+  a {
+    color: #8A3FFC;
+    text-decoration: none;
+
+  }
+>>>>>>> parent of 9b661b0 (name changes etc)
   span{
     color: #8A3FFC;
     font-family: monospace;
@@ -181,6 +192,7 @@ a {
     max-width: 100%;
   }
 
+<<<<<<< HEAD
   h8{
     padding-bottom: 32px;
   }
@@ -196,6 +208,8 @@ a {
     
     border-color: black !important;
   }
+=======
+>>>>>>> parent of 9b661b0 (name changes etc)
   p {
     margin-bottom: 2rem;
     line-height: 1.5;
@@ -235,7 +249,6 @@ a {
     p{
       column-count: 2;
     }
-    
     h2{
 
       padding-bottom: 50px;
@@ -244,6 +257,7 @@ a {
       width: 50%;
     }
   }
+<<<<<<< HEAD
 
 
   @media only screen and (max-width:1306px){
@@ -278,11 +292,14 @@ a {
 
 
   }
+=======
+>>>>>>> parent of 9b661b0 (name changes etc)
 
   @media only screen and (max-width:800px){
     p{
       column-count: 1;
     }
+<<<<<<< HEAD
     .aboutMeName {
       max-width: 500px !important;
   
@@ -296,6 +313,8 @@ a {
       padding-top: 40px;
     }
     
+=======
+>>>>>>> parent of 9b661b0 (name changes etc)
     h2{
 
       padding-bottom: 50px;
@@ -316,6 +335,7 @@ a {
       padding-top: 40px;
     }
   }
+<<<<<<< HEAD
 
   @media only screen and (max-width:600px){
     h7{
@@ -336,5 +356,7 @@ a {
     
   
   }
+=======
+>>>>>>> parent of 9b661b0 (name changes etc)
 
 `;
