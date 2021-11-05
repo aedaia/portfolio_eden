@@ -23,9 +23,47 @@ export default createGlobalStyle`
     vertical-align: baseline;
   }
 
+  .black{
+    background-color: black;
+  }
+
+  .black a{
+      color: grey;
+      transition: color 0.2s ease;
+      text-decoration: none;
+      
+  }
+
+   .black a:hover {
+      color: white;
+    }
+
+  .white{
+    background-color: white !important;
+  }
 
 
-  
+
+  .aboutMe{
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 5.9rem;
+    margin-right: 0;
+    background-color: black;
+    color: white;
+    height: 587px;
+  }
+
+  .aboutMePhoto {
+    float: right;
+    padding-left: 25px;
+  }
+ 
+  .aboutMeName {
+    max-width: 600px !important;
+   float: left;
+
+  }
 a {
   cursor: pointer;
     color: black;
@@ -192,6 +230,7 @@ a {
     margin-bottom: -2px;
   }
 
+
   @media only screen and (max-width:1700px){
     p{
       column-count: 2;
@@ -205,15 +244,47 @@ a {
       width: 50%;
     }
   }
+
+
+  @media only screen and (max-width:1306px){
+    h7{
+      font-size: 6rem;
+    }
+ 
+  .aboutMe{
+    background-color: black;
+    height: 919px;
+    
+  }
+  .aboutMePhoto{
+    padding-top: 0px;
+    position: relative;
+  }
+}
+
   @media only screen and (max-width:850px){
     h7{
       font-size: 6rem;
     }
+
+
   }
 
   @media only screen and (max-width:800px){
     p{
       column-count: 1;
+    }
+    .aboutMeName {
+      max-width: 500px !important;
+  
+    }
+    .aboutMe{
+      background-color: black;
+      height: 997px;
+      
+    }
+    .aboutMePhoto{
+      padding-top: 40px;
     }
     
     h2{
@@ -223,11 +294,38 @@ a {
     img{
       width: 100%;
     }
+
   }
+
+  @media only screen and (max-width:768px){
+    .aboutMe{
+      background-color: black;
+      height: 910px;
+      
+    }
+    .aboutMePhoto{
+      padding-top: 40px;
+    }
+  }
+
   @media only screen and (max-width:600px){
     h7{
       font-size: 4rem;
     }
+    .aboutMeName {
+      max-width: 400px !important;
+  
+    }
+    .aboutMe{
+      background-color: black;
+      height: 919px;
+      
+    }
+    .aboutMePhoto{
+      padding-top: 40px;
+    }
+    
+  
   }
 
 `;
