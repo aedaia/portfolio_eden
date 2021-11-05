@@ -97,7 +97,7 @@ Dipmag.propTypes = {
 
 export default Dipmag;
 
-const query = graphql`
+export const query = graphql`
   query dipmagQuery {
     dipmagJson {
       title

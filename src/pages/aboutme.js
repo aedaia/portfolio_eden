@@ -56,7 +56,7 @@ Aboutme.propTypes = {
 
 export default Aboutme;
 
-const query = graphql`
+export const query = graphql`
   query AboutmeQuery {
     aboutmeJson {
       title

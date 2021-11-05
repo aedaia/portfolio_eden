@@ -62,7 +62,7 @@ Autismberks.propTypes = {
 
 export default Autismberks;
 
-const query = graphql`
+export const query = graphql`
   query AutismberksQuery {
     autismberksJson {
       title

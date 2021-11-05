@@ -62,7 +62,7 @@ bftf.propTypes = {
 
 export default bftf;
 
-const query = graphql`
+export const query = graphql`
   query bftfQuery {
     bftfJson {
       title
