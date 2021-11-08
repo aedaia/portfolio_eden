@@ -253,7 +253,7 @@ a {
 
 }
 
-@media only screen and (max-width:1249px){
+@media only screen and (max-width:1264px){
   h7{
     font-size: 6rem;
   }
