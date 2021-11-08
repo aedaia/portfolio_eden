@@ -62,6 +62,7 @@ export default createGlobalStyle`
   .aboutMeName {
     max-width: 600px !important;
    float: left;
+   background-color: black;
 
   }
 a {
@@ -333,8 +334,47 @@ a {
     .aboutMePhoto{
       padding-top: 40px;
     }
+    button{
+      margin-bottom: 8px;
+     
     
   
   }
+
+  @media only screen and (max-width: 469px) {
+   
+
+  .aboutMe{
+    background-color: black;
+    height: 908px;
+    
+  }
+}
+
+@media only screen and (max-width: 410px) {
+   
+
+  .aboutMe{
+    background-color: black;
+    height: 939px;
+    
+  }
+}
+
+@media only screen and (max-width: 369px) {
+   
+
+  .aboutMe{
+    background-color: black;
+    height: 750px;
+    
+  }
+  .aboutMePhoto{
+    height: 0;
+    opacity: 0;
+  }
+}
+
+
 
 `;
