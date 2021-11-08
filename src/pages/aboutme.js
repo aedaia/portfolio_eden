@@ -14,6 +14,7 @@ const Aboutme = ({ data }) => (
       <div className="aboutMe">
         <Title as="h2" size="large">
           <div className="aboutMeName">
+            <br />
             <h7>about me </h7>
             <br />
             <br />

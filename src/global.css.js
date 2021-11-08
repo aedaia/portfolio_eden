@@ -45,12 +45,10 @@ export default createGlobalStyle`
 
 
   .aboutMe{
-    padding-right: 4rem;
-    padding-left: 4rem;
-    padding-top: 5.9rem;
+    padding: 2rem 4rem;
     margin-right: 0;
     color: white;
-    height: 545px;
+    height: 525px;
   }
 
   .aboutMePhoto {
@@ -255,14 +253,14 @@ a {
 
 }
 
-@media only screen and (max-width:1285px){
+@media only screen and (max-width:1249px){
   h7{
     font-size: 6rem;
   }
 
 .aboutMe{
       background-color: black;
-  height: 877px;
+  height: 895px;
   
 }
 .aboutMePhoto{
@@ -280,7 +278,7 @@ a {
 
   }
 
-  @media only screen and (max-width:800px){
+  @media only screen and (max-width:798px){
     p{
       column-count: 1;
     }
@@ -290,7 +288,7 @@ a {
     }
     .aboutMe{
 
-      height: 955px;
+      height: 973px;
       
     }
     .aboutMePhoto{
@@ -310,7 +308,7 @@ a {
   @media only screen and (max-width:768px){
     .aboutMe{
   
-      height: 868px;
+      height: 879px;
       
     }
     .aboutMePhoto{
@@ -328,14 +326,16 @@ a {
     }
     .aboutMe{
       background-color: black;
-      height: 877px;
+      height: 888px;
       
     }
     .aboutMePhoto{
       padding-top: 40px;
     }
     button{
-      margin-bottom: 8px;
+      margin-bottom: 0px;
+      margin-top: 8px;
+
      
     
   
@@ -346,7 +346,7 @@ a {
 
   .aboutMe{
     background-color: black;
-    height: 908px;
+    height: 919px;
     
   }
 }
@@ -356,12 +356,12 @@ a {
 
   .aboutMe{
     background-color: black;
-    height: 939px;
+    height: 950px;
     
   }
 }
 
-@media only screen and (max-width: 369px) {
+@media only screen and (max-width: 370px) {
    
 
   .aboutMe{
