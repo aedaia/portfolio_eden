@@ -17,8 +17,7 @@ const Index = ({ data }) => (
         <br />
         <h8>
           My name&apos;s Eden, and I&apos;m a visual designer specialising in
-          both digital and print. Now you&apos;d better get ready for some
-          colour... <br />
+          both digital and print.<br />
           <br />
           <br />
           <br />
